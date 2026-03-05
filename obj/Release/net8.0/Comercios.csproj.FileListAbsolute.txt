@@ -1,9 +1,5 @@
-C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\apiGateWay.deps.json
-C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\apiGateWay.runtimeconfig.json
-C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\apiGateWay.exe
 C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\appsettings.Development.json
 C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\appsettings.json
-C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\Comercios.exe
 C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\Comercios.deps.json
 C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\Comercios.runtimeconfig.json
 C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\Comercios.dll
@@ -51,8 +47,6 @@ C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\System.Composit
 C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\System.Composition.Runtime.dll
 C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\System.Composition.TypedParts.dll
 C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\System.IO.Hashing.dll
-C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\Yarp.ReverseProxy.dll
 C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -105,8 +99,6 @@ C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\ru\Microsoft.Co
 C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\apiGateWay.dll
-C:\Users\DELL\source\repos\msPrueba\Comercios\bin\Release\net8.0\apiGateWay.pdb
 C:\Users\DELL\source\repos\msPrueba\Comercios\obj\Release\net8.0\Comercios.csproj.AssemblyReference.cache
 C:\Users\DELL\source\repos\msPrueba\Comercios\obj\Release\net8.0\Comercios.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\DELL\source\repos\msPrueba\Comercios\obj\Release\net8.0\Comercios.AssemblyInfoInputs.cache
@@ -127,3 +119,4 @@ C:\Users\DELL\source\repos\msPrueba\Comercios\obj\Release\net8.0\refint\Comercio
 C:\Users\DELL\source\repos\msPrueba\Comercios\obj\Release\net8.0\Comercios.pdb
 C:\Users\DELL\source\repos\msPrueba\Comercios\obj\Release\net8.0\Comercios.genruntimeconfig.cache
 C:\Users\DELL\source\repos\msPrueba\Comercios\obj\Release\net8.0\ref\Comercios.dll
+c:\Users\DELL\source\repos\msPrueba\Comercios\obj\Release\net8.0\Comercios.sourcelink.json

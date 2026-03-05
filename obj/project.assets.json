@@ -1171,22 +1171,6 @@
           }
         }
       },
-      "System.IO.Hashing/8.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/System.IO.Hashing.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/System.IO.Hashing.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
       "System.IO.Pipelines/6.0.3": {
         "type": "package",
         "compile": {
@@ -1278,45 +1262,6 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
-      },
-      "Yarp.ReverseProxy/2.3.0": {
-        "type": "package",
-        "dependencies": {
-          "System.IO.Hashing": "8.0.0"
-        },
-        "compile": {
-          "lib/net8.0/Yarp.ReverseProxy.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Yarp.ReverseProxy.dll": {
-            "related": ".xml"
-          }
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ],
-        "build": {
-          "buildTransitive/net8.0/Yarp.ReverseProxy.targets": {}
-        }
-      },
-      "apiGateWay/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.24",
-          "Yarp.ReverseProxy": "2.3.0"
-        },
-        "compile": {
-          "bin/placeholder/apiGateWay.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/apiGateWay.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -3148,36 +3093,6 @@
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
-    "System.IO.Hashing/8.0.0": {
-      "sha512": "ne1843evDugl0md7Fjzy6QjJrzsjh46ZKbhf8GwBXb5f/gw97J4bxMs0NQKifDuThh/f0bZ0e62NPl1jzTuRqA==",
-      "type": "package",
-      "path": "system.io.hashing/8.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "PACKAGE.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.IO.Hashing.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.IO.Hashing.targets",
-        "lib/net462/System.IO.Hashing.dll",
-        "lib/net462/System.IO.Hashing.xml",
-        "lib/net6.0/System.IO.Hashing.dll",
-        "lib/net6.0/System.IO.Hashing.xml",
-        "lib/net7.0/System.IO.Hashing.dll",
-        "lib/net7.0/System.IO.Hashing.xml",
-        "lib/net8.0/System.IO.Hashing.dll",
-        "lib/net8.0/System.IO.Hashing.xml",
-        "lib/netstandard2.0/System.IO.Hashing.dll",
-        "lib/netstandard2.0/System.IO.Hashing.xml",
-        "system.io.hashing.8.0.0.nupkg.sha512",
-        "system.io.hashing.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "System.IO.Pipelines/6.0.3": {
       "sha512": "ryTgF+iFkpGZY1vRQhfCzX0xTdlV3pyaTTqRu2ETbEv+HlV7O6y7hyQURnghNIXvctl5DuZ//Dpks6HdL/Txgw==",
       "type": "package",
@@ -3316,45 +3231,17 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "Yarp.ReverseProxy/2.3.0": {
-      "sha512": "gxtkN3a+9biu9V9Zd5NaTO6VZWXAnS2mhQ0R/VXmSPoTuiQNZsakKikrKpDtKxrL5nUYzbRsHtl40WNq+ZBKKg==",
-      "type": "package",
-      "path": "yarp.reverseproxy/2.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ConfigurationSchema.json",
-        "README.md",
-        "buildTransitive/net6.0/Yarp.ReverseProxy.targets",
-        "buildTransitive/net7.0/Yarp.ReverseProxy.targets",
-        "buildTransitive/net8.0/Yarp.ReverseProxy.targets",
-        "icon.png",
-        "lib/net6.0/Yarp.ReverseProxy.dll",
-        "lib/net6.0/Yarp.ReverseProxy.xml",
-        "lib/net7.0/Yarp.ReverseProxy.dll",
-        "lib/net7.0/Yarp.ReverseProxy.xml",
-        "lib/net8.0/Yarp.ReverseProxy.dll",
-        "lib/net8.0/Yarp.ReverseProxy.xml",
-        "yarp.reverseproxy.2.3.0.nupkg.sha512",
-        "yarp.reverseproxy.nuspec"
-      ]
-    },
-    "apiGateWay/1.0.0": {
-      "type": "project",
-      "path": "../apiGateWay/apiGateWay.csproj",
-      "msbuildProject": "../apiGateWay/apiGateWay.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Grpc.AspNetCore >= 2.76.0",
       "Mapster >= 7.4.0",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.24",
       "Microsoft.EntityFrameworkCore >= 8.0.23",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.23",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.23",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.11",
-      "apiGateWay >= 1.0.0"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.11"
     ]
   },
   "packageFolders": {
@@ -3384,11 +3271,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "C:\\Users\\DELL\\source\\repos\\msPrueba\\apiGateWay\\apiGateWay.csproj": {
-              "projectPath": "C:\\Users\\DELL\\source\\repos\\msPrueba\\apiGateWay\\apiGateWay.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -3413,6 +3296,10 @@
           "Mapster": {
             "target": "Package",
             "version": "[7.4.0, )"
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[8.0.24, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

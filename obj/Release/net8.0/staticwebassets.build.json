@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "uvGLTlbimj6mXwpNwG3uy2VYqyXMjBvQdrnbLwH9ouA=",
+  "Hash": "UHF4SmBM8jyoBVIuEjI7axQVDYGVI8Wc0GY6fVhxIUQ=",
   "Source": "Comercios",
   "BasePath": "_content/Comercios",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "C:\\Users\\DELL\\source\\repos\\msPrueba\\apiGateWay\\apiGateWay.csproj",
-      "Version": 2,
-      "Source": "apiGateWay",
-      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
   "Assets": []
 }
