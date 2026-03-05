@@ -48,9 +48,11 @@ builder.Services.AddInfrastructure(builder.Configuration);
 var app = builder.Build();
 
 app.UseHeaderInjection();
+app.UseGrpcWeb();
 app.UseAuthentication();
 app.UseAuthorization();
-app.MapGrpcService<ComerciosGrpcService>();
+app.MapGrpcService<ComerciosGrpcService>()
+   .EnableGrpcWeb();
 app.MapControllers();
 
 
