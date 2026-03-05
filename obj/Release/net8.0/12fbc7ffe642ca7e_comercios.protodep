@@ -1,0 +1,2 @@
+obj\Release\net8.0\Protos/Comercios.cs \
+obj\Release\net8.0\Protos/ComerciosGrpc.cs: Protos/comercios.proto

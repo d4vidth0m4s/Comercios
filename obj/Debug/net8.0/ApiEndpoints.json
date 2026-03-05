@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "Comercios.Controllers.ComerciosController",
+    "Method": "Update",
+    "RelativePath": "Comercios/ActualizarComercio",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Comercios.Application.DTOs.CrearComercio.Resquest.CrearComercioResquestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Comercios.Controllers.ComerciosController",
+    "Method": "Create",
+    "RelativePath": "Comercios/CrearComercios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Comercios.Application.DTOs.CrearComercio.Resquest.CrearComercioResquestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Comercios.Controllers.ComerciosController",
+    "Method": "Health",
+    "RelativePath": "Comercios/ok",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
